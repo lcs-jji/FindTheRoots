@@ -16,7 +16,10 @@ struct ResultView: View {
             
             HStack(spacing: 30){
                 Text("a: \(resultForPreviews.a)")
+                Text("b: \(resultForPreviews.b)")
+                Text("c: \(resultForPreviews.c)")
             }
+            Text("\(resultForPreviews.roots)")
             
         }
     }
