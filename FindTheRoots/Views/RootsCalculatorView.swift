@@ -73,6 +73,15 @@ struct RootsCalculatorView: View {
                 .buttonStyle(.bordered)
                 .padding()
                 
+                // History Label
+                HStack {
+                    Text ("History")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Spacer()
+                }
+                
+                
                 Spacer(minLength: 200)
                 
             }
